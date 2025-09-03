@@ -8,7 +8,7 @@ export const REQUIRED_FIELDS = {
   Link: 'url',
   Author: 'text',
   PublishedAt: 'timestamp',
-  Summary: 'multiLineText',
+  Summary: 'text-multi-line',
   Tags: 'text',
   GUID: 'text',
   ItemHash: 'text', // Upserts based on ItemHash
@@ -21,9 +21,9 @@ export async function ensureFieldsAndMapIds() {
   const byLabel = new Map(arr.map(f => [f.label, f]));
 
   // Create any missing
-  for (const [label, type] of Object.entries(REQUIRED_FIELDS)) {
+  for (const [label, fieldType] of Object.entries(REQUIRED_FIELDS)) {
     if (!byLabel.has(label)) {
-      const created = await createField(label, type);
+      const created = await createField(label, fieldType);
       byLabel.set(created.label || label, created);
     }
   }

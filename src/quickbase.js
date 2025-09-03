@@ -1,11 +1,17 @@
 import fetch from 'node-fetch';
 import { QB } from './config.js';
 
+function cleanRealmHost(host) {
+  if (!host) return '';
+  return host.replace(/^https?:\/\//i, '').replace(/\/+$/, '');
+}
+
 function qbHeaders() {
+  const realmHost = cleanRealmHost(QB.realm);
   return {
-    'QB-Realm-Hostname': QB.realm,
+    'QB-Realm-Hostname': realmHost,
     Authorization: `QB-USER-TOKEN ${QB.token}`,
-    'User-Agent': QB.agent,
+    'User-Agent': QB.agent || 'DepinRSSBot/1.0',
     'Content-Type': 'application/json',
   };
 }
@@ -17,15 +23,15 @@ export async function getFields() {
     encodeURIComponent(QB.tableId);
   const res = await fetch(url, { headers: qbHeaders() });
   if (!res.ok) throw new Error(`getFields failed: ${res.status}`);
-  return res.json(); // array of fields {id,label,...}
+  return res.json();
 }
 
-// Create a field by label + type
-export async function createField(label, type = 'text') {
+// Create a field by label + fieldType
+export async function createField(label, fieldType = 'text') {
   const url =
     'https://api.quickbase.com/v1/fields?tableId=' +
     encodeURIComponent(QB.tableId);
-  const body = { label, type };
+  const body = { label, fieldType };
   const res = await fetch(url, {
     method: 'POST',
     headers: qbHeaders(),
