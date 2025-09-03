@@ -1,14 +1,81 @@
 [
+  { "source": "X search: DePIN", "url": "/twitter/keyword/DePIN" },
   {
-    "source": "X search: depin",
-    "url": "/x/search/depin"
+    "source": "X search: browser mining",
+    "url": "/twitter/keyword/browser%20mining"
   },
   {
-    "source": "Reddit r/depin",
-    "url": "/reddit/subreddit/depin"
+    "source": "X search: bandwidth sharing",
+    "url": "/twitter/keyword/bandwidth%20sharing"
   },
   {
-    "source": "GitHub topics: DePIN",
-    "url": "/github/topic/depin"
+    "source": "X search: GPU marketplace",
+    "url": "/twitter/keyword/GPU%20marketplace"
+  },
+  { "source": "X search: io.net", "url": "/twitter/keyword/IO.Net" },
+  { "source": "X search: Nosana", "url": "/twitter/keyword/Nosana" },
+  {
+    "source": "X search: Akash Network",
+    "url": "/twitter/keyword/Akash%20Network"
+  },
+  {
+    "source": "X search: Render Network",
+    "url": "/twitter/keyword/Render%20Network"
+  },
+  { "source": "X search: CUDOS", "url": "/twitter/keyword/CUDOS" },
+  {
+    "source": "X search: Sentinel dVPN",
+    "url": "/twitter/keyword/Sentinel%20dVPN"
+  },
+  {
+    "source": "X search: Deeper Network",
+    "url": "/twitter/keyword/Deeper%20Network"
+  },
+
+  { "source": "Reddit: r/DePIN", "url": "https://www.reddit.com/r/DePIN/.rss" },
+  {
+    "source": "Reddit: r/cryptomining",
+    "url": "https://www.reddit.com/r/cryptomining/.rss"
+  },
+  {
+    "source": "Reddit: r/decentralization",
+    "url": "https://www.reddit.com/r/decentralization/.rss"
+  },
+  { "source": "Reddit: r/dvpn", "url": "https://www.reddit.com/r/dvpn/.rss" },
+
+  {
+    "source": "GitHub topics: depin (updated)",
+    "url": "/github/topics/depin/s=updated&o=desc"
+  },
+  {
+    "source": "GitHub topics: edge-computing",
+    "url": "/github/topics/edge-computing/s=updated&o=desc"
+  },
+  {
+    "source": "GitHub topics: gpu",
+    "url": "/github/topics/gpu/s=updated&o=desc"
+  },
+
+  { "source": "Medium tag: depin", "url": "https://medium.com/feed/tag/depin" },
+  {
+    "source": "Medium tag: web3-infra",
+    "url": "https://medium.com/feed/tag/web3-infrastructure"
+  },
+  {
+    "source": "Medium tag: edge-computing",
+    "url": "https://medium.com/feed/tag/edge-computing"
+  },
+
+  {
+    "source": "YouTube: Akash Network channel",
+    "url": "/youtube/channel/UCYBs3u4tC1ZQmK3a1JpNQhQ"
+  },
+  {
+    "source": "YouTube: Render Network channel",
+    "url": "/youtube/channel/UCmRenderReplaceWithReal"
+  },
+  {
+    "source": "YouTube: DePIN interviews (example playlist)",
+    "url": "/youtube/playlist/PL_REPLACE_WITH_PLAYLIST_ID"
   }
 ]
