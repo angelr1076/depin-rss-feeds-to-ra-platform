@@ -9,7 +9,8 @@ import { RSSHUB_BASE } from './config.js';
 
 // Load feeds list
 const feedsPath = path.resolve('feeds.json');
-const feeds = JSON.parse(await fs.readFile(feedsPath, 'utf8'));
+const raw = JSON.parse(await fs.readFile(feedsPath, 'utf8'));
+const feeds = Array.isArray(raw) ? raw : [raw];
 
 async function runOnce() {
   console.log(`[depin] RSSHub base: ${RSSHUB_BASE}`);
@@ -35,9 +36,9 @@ if (process.argv.includes('--once')) {
     process.exit(1);
   });
 } else {
-  // Schedule every hour
-  cron.schedule('*/60 * * * *', () => {
+  // Schedule once daily at 08:00
+  cron.schedule('0 8 * * *', () => {
     runOnce().catch(e => console.error(e));
   });
-  console.log('Scheduled every 60 min. Press Ctrl+C to stop.');
+  console.log('Scheduled once daily at 08:00. Press Ctrl+C to stop.');
 }
