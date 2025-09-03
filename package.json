@@ -2,7 +2,7 @@
   "name": "depin-rss-feeds-to-ra-platform",
   "version": "1.0.0",
   "description": "A modular Node.js tool that fetches posts from various RSSHub (and native) feeds related to DePIN.",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "run": "node src/index.js",
