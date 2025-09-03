@@ -22,8 +22,13 @@ export async function getFields() {
     'https://api.quickbase.com/v1/fields?tableId=' +
     encodeURIComponent(QB.tableId);
   const res = await fetch(url, { headers: qbHeaders() });
-  if (!res.ok) throw new Error(`getFields failed: ${res.status}`);
-  return res.json();
+
+  if (!res.ok) {
+    const txt = await res.text().catch(() => '');
+    throw new Error(`getFields failed: ${res.status} :: ${txt}`);
+  }
+  const json = await res.json();
+  return Array.isArray(json) ? json : json.fields || [];
 }
 
 // Create a field by label + fieldType
