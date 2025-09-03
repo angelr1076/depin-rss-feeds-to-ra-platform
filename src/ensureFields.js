@@ -8,7 +8,7 @@ export const REQUIRED_FIELDS = {
   Link: 'url',
   Author: 'text',
   PublishedAt: 'timestamp',
-  Summary: 'text-multi-line',
+  Summary: 'multiLineText',
   Tags: 'text',
   GUID: 'text',
   ItemHash: 'text', // Upserts based on ItemHash
@@ -16,9 +16,8 @@ export const REQUIRED_FIELDS = {
 };
 
 export async function ensureFieldsAndMapIds() {
-  const existing = await getFields();
-  const arr = Array.isArray(existing.fields) ? existing.fields : existing;
-  const byLabel = new Map(arr.map(f => [f.label, f]));
+  const fields = await getFields();
+  const byLabel = new Map(fields.map(f => [f.label, f]));
 
   // Create any missing
   for (const [label, fieldType] of Object.entries(REQUIRED_FIELDS)) {
@@ -30,10 +29,9 @@ export async function ensureFieldsAndMapIds() {
 
   // Build name => id map
   const fresh = await getFields();
-  const list = Array.isArray(fresh.fields) ? fresh.fields : fresh;
   const idMap = {};
   for (const [label] of Object.entries(REQUIRED_FIELDS)) {
-    const f = list.find(x => x.label === label);
+    const f = fresh.find(x => x.label === label);
     if (!f) throw new Error(`Field still missing: ${label}`);
     idMap[label] = f.id;
   }
