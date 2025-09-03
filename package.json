@@ -1,0 +1,31 @@
+{
+  "name": "depin-rss-feeds-to-ra-platform",
+  "version": "1.0.0",
+  "description": "A modular Node.js tool that fetches posts from various RSSHub (and native) feeds related to DePIN.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "node src/index.js",
+    "once": "node src/index.js --once"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelr1076/depin-rss-feeds-to-ra-platform.git"
+  },
+  "keywords": [
+    "depin",
+    "javascript"
+  ],
+  "author": "Angel Rodriguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angelr1076/depin-rss-feeds-to-ra-platform/issues"
+  },
+  "homepage": "https://github.com/angelr1076/depin-rss-feeds-to-ra-platform#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "rss-parser": "^3.13.0"
+  }
+}
