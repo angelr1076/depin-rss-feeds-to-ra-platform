@@ -1,5 +1,7 @@
 import 'dotenv/config';
 
+export const CRON_SCHEDULE = process.env.CRON_SCHEDULE || '0 8 * * *';
+
 export const QB = {
   realm: process.env.QB_REALM,
   token: process.env.QB_TOKEN,

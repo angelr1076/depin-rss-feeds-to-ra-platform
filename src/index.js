@@ -6,6 +6,7 @@ import { normalizeItems } from './normalize.js';
 import { ensureFieldsAndMapIds } from './ensureFields.js';
 import { upsertItems } from './upsert.js';
 import { RSSHUB_BASE } from './config.js';
+import { CRON_SCHEDULE } from './config.js';
 
 // Load feeds list
 const feedsPath = path.resolve('feeds.json');
@@ -29,16 +30,17 @@ async function runOnce() {
   console.log(`Done. Total upserted records: ${total}`);
 }
 
-// If --once, just run. Otherwise schedule every hour
+// If --once, just run. Otherwise schedule based on CRON_SCHEDULE in .env
 if (process.argv.includes('--once')) {
   runOnce().catch(e => {
     console.error(e);
     process.exit(1);
   });
 } else {
-  // Schedule once daily at 08:00
-  cron.schedule('0 8 * * *', () => {
+  cron.schedule(CRON_SCHEDULE, () => {
     runOnce().catch(e => console.error(e));
   });
-  console.log('Scheduled once daily at 08:00. Press Ctrl+C to stop.');
+  console.log(
+    `Scheduled job using CRON: "${CRON_SCHEDULE}". Press Ctrl+C to stop.`
+  );
 }
