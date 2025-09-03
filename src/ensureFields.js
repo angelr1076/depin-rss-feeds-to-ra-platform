@@ -3,7 +3,7 @@ import { getFields, createField } from './quickbase.js';
 // Table schema
 export const REQUIRED_FIELDS = {
   Source: 'text',
-  FeedURL: 'text',
+  FeedURL: 'url',
   Title: 'text',
   Link: 'url',
   Author: 'text',
