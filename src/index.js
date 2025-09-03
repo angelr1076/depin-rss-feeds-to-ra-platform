@@ -1,0 +1,43 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import cron from 'node-cron';
+import { fetchFeed } from './rsshub.js';
+import { normalizeItems } from './normalize.js';
+import { ensureFieldsAndMapIds } from './ensureFields.js';
+import { upsertItems } from './upsert.js';
+import { RSSHUB_BASE } from './config.js';
+
+// Load feeds list
+const feedsPath = path.resolve('feeds.json');
+const feeds = JSON.parse(await fs.readFile(feedsPath, 'utf8'));
+
+async function runOnce() {
+  console.log(`[depin] RSSHub base: ${RSSHUB_BASE}`);
+  const idMap = await ensureFieldsAndMapIds();
+
+  let total = 0;
+  for (const f of feeds) {
+    const feed = await fetchFeed(f.url);
+    const items = normalizeItems(feed, f.source, f.url);
+    if (!items.length) continue;
+
+    await upsertItems(items, idMap);
+    total += items.length;
+    console.log(`Upserted ${items.length} items from "${f.source}"`);
+  }
+  console.log(`Done. Total upserted records: ${total}`);
+}
+
+// If --once, just run. Otherwise schedule every hour
+if (process.argv.includes('--once')) {
+  runOnce().catch(e => {
+    console.error(e);
+    process.exit(1);
+  });
+} else {
+  // Schedule every hour
+  cron.schedule('*/60 * * * *', () => {
+    runOnce().catch(e => console.error(e));
+  });
+  console.log('Scheduled every 60 min. Press Ctrl+C to stop.');
+}
