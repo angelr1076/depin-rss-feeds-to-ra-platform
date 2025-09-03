@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Diagnostic reports
+report.*.json
+
+# Runtime files
+pids
+*.pid
+*.pid.lock
+*.seed
+
+# Coverage tools
+coverage/
+.nyc_output/
+
+# Test tools
+.grunt
+.cache/
+build/
+dist/
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor-specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional caches
+.eslintcache
+.node_repl_history
