@@ -1,4 +1,4 @@
-# DePIN RSS Feeds to Quickbase
+# DePIN RSS Feeds to RA Platform
 
 This is a small Node.js project that fetches DePIN-related content from RSS feeds (RSSHub and native sources), deduplicates items, and pushes them into a Quickbase table **“Depin RSS Feeds”**.
 
