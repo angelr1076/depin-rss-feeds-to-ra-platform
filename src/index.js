@@ -12,6 +12,10 @@ import { CRON_SCHEDULE } from './config.js';
 const feedsPath = path.resolve('feeds.json');
 const raw = JSON.parse(await fs.readFile(feedsPath, 'utf8'));
 const feeds = Array.isArray(raw) ? raw : [raw];
+console.log(
+  '[depin] feeds:',
+  feeds.map(f => f.source)
+);
 
 async function runOnce() {
   console.log(`[depin] RSSHub base: ${RSSHUB_BASE}`);
