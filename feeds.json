@@ -22,20 +22,59 @@
   {
     "source": "Bitcointalk ANN (Altcoins)",
     "url": "https://bitcointalk.org/index.php?board=159.0;type=rss"
-  }
-  { "source": "Reddit search: 'gpu mineable' ANYWHERE", "url": "https://www.reddit.com/search.rss?q=gpu%20mineable&sort=new" },
-  { "source": "Reddit search: 'cpu mineable' ANYWHERE", "url": "https://www.reddit.com/search.rss?q=cpu%20mineable&sort=new" },
-  { "source": "Reddit search: 'fair launch' AND mining", "url": "https://www.reddit.com/search.rss?q=%22fair%20launch%22%20mining&sort=new" },
-  { "source": "Reddit search: 'new algo' AND mining", "url": "https://www.reddit.com/search.rss?q=%22new%20algo%22%20mining&sort=new" },
-  { "source": "lolMiner releases", "url": "https://github.com/Lolliedieb/lolMiner-releases/releases.atom" },
-  { "source": "bzminer releases", "url": "https://github.com/bzminer/bzminer/releases.atom" },
-  { "source": "SRBMiner-MULTI releases", "url": "https://github.com/doktor83/SRBMiner-Multi/releases.atom" },
-  { "source": "XMRig (CPU) releases", "url": "https://github.com/xmrig/xmrig/releases.atom" },
-  { "source": "cpuminer-opt (CPU) releases", "url": "https://github.com/JayDDee/cpuminer-opt/releases.atom" },
-  { "source": "T-Rex (NVIDIA) releases", "url": "https://github.com/trexminer/T-Rex/releases.atom" },
+  },
+  {
+    "source": "Reddit search: 'gpu mineable' ANYWHERE",
+    "url": "https://www.reddit.com/search.rss?q=gpu%20mineable&sort=new"
+  },
+  {
+    "source": "Reddit search: 'cpu mineable' ANYWHERE",
+    "url": "https://www.reddit.com/search.rss?q=cpu%20mineable&sort=new"
+  },
+  {
+    "source": "Reddit search: 'fair launch' AND mining",
+    "url": "https://www.reddit.com/search.rss?q=%22fair%20launch%22%20mining&sort=new"
+  },
+  {
+    "source": "Reddit search: 'new algo' AND mining",
+    "url": "https://www.reddit.com/search.rss?q=%22new%20algo%22%20mining&sort=new"
+  },
+  {
+    "source": "lolMiner releases",
+    "url": "https://github.com/Lolliedieb/lolMiner-releases/releases.atom"
+  },
+  {
+    "source": "bzminer releases",
+    "url": "https://github.com/bzminer/bzminer/releases.atom"
+  },
+  {
+    "source": "SRBMiner-MULTI releases",
+    "url": "https://github.com/doktor83/SRBMiner-Multi/releases.atom"
+  },
+  {
+    "source": "XMRig (CPU) releases",
+    "url": "https://github.com/xmrig/xmrig/releases.atom"
+  },
+  {
+    "source": "cpuminer-opt (CPU) releases",
+    "url": "https://github.com/JayDDee/cpuminer-opt/releases.atom"
+  },
+  {
+    "source": "T-Rex (NVIDIA) releases",
+    "url": "https://github.com/trexminer/T-Rex/releases.atom"
+  },
   { "source": "2Miners Blog", "url": "https://2miners.com/blog/feed/" },
   { "source": "Hiveon Blog", "url": "https://blog.hiveon.com/rss/" },
-  { "source": "Medium: proof-of-work tag", "url": "https://medium.com/feed/tag/proof-of-work" },
-  { "source": "Medium: gpu mining tag", "url": "https://medium.com/feed/tag/gpu-mining" },
-  { "source": "Medium: cpu mining tag", "url": "https://medium.com/feed/tag/cpu-mining" }
+  {
+    "source": "Medium: proof-of-work tag",
+    "url": "https://medium.com/feed/tag/proof-of-work"
+  },
+  {
+    "source": "Medium: gpu mining tag",
+    "url": "https://medium.com/feed/tag/gpu-mining"
+  },
+  {
+    "source": "Medium: cpu mining tag",
+    "url": "https://medium.com/feed/tag/cpu-mining"
+  }
 ]
