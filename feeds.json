@@ -8,8 +8,8 @@
   { "source": "Medium tag: depin", "url": "https://medium.com/feed/tag/depin" },
 
   {
-    "source": "Reddit: r/SpeculativeMining",
-    "url": "https://www.reddit.com/r/SpeculativeMining/.rss"
+    "source": "Reddit: r/gomining",
+    "url": "https://www.reddit.com/r/gomining/.rss"
   },
   {
     "source": "Reddit: r/gpumining",
@@ -17,7 +17,7 @@
   },
   {
     "source": "Reddit: r/AltcoinMining",
-    "url": "https://www.reddit.com/r/AltcoinMining/.rss"
+    "url": "https://www.reddit.com/r/altcoin/.rss"
   },
   {
     "source": "Bitcointalk ANN (Altcoins)",
