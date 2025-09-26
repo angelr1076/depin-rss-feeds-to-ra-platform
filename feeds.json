@@ -1,5 +1,4 @@
 [
-  { "source": "Reddit: r/DePIN", "url": "https://www.reddit.com/r/DePIN/.rss" },
   {
     "source": "Reddit: r/cryptomining",
     "url": "https://www.reddit.com/r/cryptomining/.rss"
@@ -10,15 +9,10 @@
   },
   {
     "source": "Reddit: r/AltcoinMining",
-    "url": "https://www.reddit.com/r/altcoin/.rss"
+    "url": "https://www.reddit.com/r/AltcoinMining/.rss"
   },
   {
-    "source": "Reddit: r/airdrops",
-    "url": "https://www.reddit.com/r/airdrops/.rss"
-  },
-
-  {
-    "source": "Reddit search: 'gpu mineable' ANYWHERE",
+    "source": "Reddit search: 'gpu mineable'",
     "url": "https://www.reddit.com/search.rss?q=gpu%20mineable&sort=new"
   },
   {
@@ -34,7 +28,11 @@
     "url": "https://bitcointalk.org/index.php?board=159.0;type=rss"
   },
   {
-    "source": "bzminer releases",
+    "source": "Bitcointalk Mining (Altcoins)",
+    "url": "https://bitcointalk.org/index.php?board=160.0;type=rss"
+  },
+  {
+    "source": "BzMiner releases",
     "url": "https://github.com/bzminer/bzminer/releases.atom"
   },
   {
@@ -42,11 +40,17 @@
     "url": "https://github.com/doktor83/SRBMiner-Multi/releases.atom"
   },
   {
-    "source": "T-Rex (NVIDIA) releases",
+    "source": "T-Rex releases",
     "url": "https://github.com/trexminer/T-Rex/releases.atom"
   },
-  { "source": "2Miners Blog", "url": "https://2miners.com/blog/feed/" },
-  { "source": "Hiveon Blog", "url": "https://blog.hiveon.com/rss/" },
+  {
+    "source": "2Miners Blog",
+    "url": "https://2miners.com/blog/feed/"
+  },
+  {
+    "source": "Hiveon Blog",
+    "url": "https://blog.hiveon.com/rss/"
+  },
   {
     "source": "Medium: proof-of-work tag",
     "url": "https://medium.com/feed/tag/proof-of-work"
@@ -54,10 +58,5 @@
   {
     "source": "Medium: gpu mining tag",
     "url": "https://medium.com/feed/tag/gpu-mining"
-  },
-  {
-    "source": "CoinDesk: Latest",
-    "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
-  },
-  { "source": "Cointelegraph: Latest", "url": "https://cointelegraph.com/rss" }
+  }
 ]
