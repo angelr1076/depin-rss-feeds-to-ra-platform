@@ -4,13 +4,6 @@
     "source": "Reddit: r/cryptomining",
     "url": "https://www.reddit.com/r/cryptomining/.rss"
   },
-
-  { "source": "Medium tag: depin", "url": "https://medium.com/feed/tag/depin" },
-
-  {
-    "source": "Reddit: r/gomining",
-    "url": "https://www.reddit.com/r/gomining/.rss"
-  },
   {
     "source": "Reddit: r/gpumining",
     "url": "https://www.reddit.com/r/gpumining/.rss"
@@ -26,10 +19,6 @@
   {
     "source": "Reddit search: 'gpu mineable' ANYWHERE",
     "url": "https://www.reddit.com/search.rss?q=gpu%20mineable&sort=new"
-  },
-  {
-    "source": "Reddit search: 'cpu mineable' ANYWHERE",
-    "url": "https://www.reddit.com/search.rss?q=cpu%20mineable&sort=new"
   },
   {
     "source": "Reddit search: 'fair launch' AND mining",
@@ -52,14 +41,6 @@
     "url": "https://github.com/doktor83/SRBMiner-Multi/releases.atom"
   },
   {
-    "source": "XMRig (CPU) releases",
-    "url": "https://github.com/xmrig/xmrig/releases.atom"
-  },
-  {
-    "source": "cpuminer-opt (CPU) releases",
-    "url": "https://github.com/JayDDee/cpuminer-opt/releases.atom"
-  },
-  {
     "source": "T-Rex (NVIDIA) releases",
     "url": "https://github.com/trexminer/T-Rex/releases.atom"
   },
@@ -72,9 +53,5 @@
   {
     "source": "Medium: gpu mining tag",
     "url": "https://medium.com/feed/tag/gpu-mining"
-  },
-  {
-    "source": "Medium: cpu mining tag",
-    "url": "https://medium.com/feed/tag/cpu-mining"
   }
 ]
