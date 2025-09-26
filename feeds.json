@@ -13,9 +13,10 @@
     "url": "https://www.reddit.com/r/altcoin/.rss"
   },
   {
-    "source": "Bitcointalk ANN (Altcoins)",
-    "url": "https://bitcointalk.org/index.php?board=159.0;type=rss"
+    "source": "Reddit: r/airdrops",
+    "url": "https://www.reddit.com/r/airdrops/.rss"
   },
+
   {
     "source": "Reddit search: 'gpu mineable' ANYWHERE",
     "url": "https://www.reddit.com/search.rss?q=gpu%20mineable&sort=new"
@@ -29,8 +30,8 @@
     "url": "https://www.reddit.com/search.rss?q=%22new%20algo%22%20mining&sort=new"
   },
   {
-    "source": "lolMiner releases",
-    "url": "https://github.com/Lolliedieb/lolMiner-releases/releases.atom"
+    "source": "Bitcointalk ANN (Altcoins)",
+    "url": "https://bitcointalk.org/index.php?board=159.0;type=rss"
   },
   {
     "source": "bzminer releases",
@@ -53,5 +54,10 @@
   {
     "source": "Medium: gpu mining tag",
     "url": "https://medium.com/feed/tag/gpu-mining"
-  }
+  },
+  {
+    "source": "CoinDesk: Latest",
+    "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+  },
+  { "source": "Cointelegraph: Latest", "url": "https://cointelegraph.com/rss" }
 ]
