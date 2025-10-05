@@ -1,28 +1,29 @@
 [
   {
     "source": "Reddit: r/cryptomining",
-    "url": "https://www.reddit.com/r/cryptomining/.rss"
+    "url": "https://rsshub.app/reddit/subreddit/cryptomining"
   },
   {
     "source": "Reddit: r/gpumining",
-    "url": "https://www.reddit.com/r/gpumining/.rss"
+    "url": "https://rsshub.app/reddit/subreddit/gpumining"
   },
   {
     "source": "Reddit: r/AltcoinMining",
-    "url": "https://www.reddit.com/r/AltcoinMining/.rss"
+    "url": "https://rsshub.app/reddit/subreddit/AltcoinMining"
   },
   {
     "source": "Reddit search: 'gpu mineable'",
-    "url": "https://www.reddit.com/search.rss?q=gpu%20mineable&sort=new"
+    "url": "https://rsshub.app/reddit/search/gpu%20mineable?sort=new"
   },
   {
     "source": "Reddit search: 'fair launch' AND mining",
-    "url": "https://www.reddit.com/search.rss?q=%22fair%20launch%22%20mining&sort=new"
+    "url": "https://rsshub.app/reddit/search/%22fair%20launch%22%20mining?sort=new"
   },
   {
     "source": "Reddit search: 'new algo' AND mining",
-    "url": "https://www.reddit.com/search.rss?q=%22new%20algo%22%20mining&sort=new"
+    "url": "https://rsshub.app/reddit/search/%22new%20algo%22%20mining?sort=new"
   },
+
   {
     "source": "Bitcointalk ANN (Altcoins)",
     "url": "https://bitcointalk.org/index.php?board=159.0;type=rss"
@@ -31,6 +32,7 @@
     "source": "Bitcointalk Mining (Altcoins)",
     "url": "https://bitcointalk.org/index.php?board=160.0;type=rss"
   },
+
   {
     "source": "BzMiner releases",
     "url": "https://github.com/bzminer/bzminer/releases.atom"
@@ -43,18 +45,10 @@
     "source": "T-Rex releases",
     "url": "https://github.com/trexminer/T-Rex/releases.atom"
   },
-  {
-    "source": "2Miners Blog",
-    "url": "https://2miners.com/blog/feed/"
-  },
-  {
-    "source": "Minerset Feed",
-    "url": "https://minerset.com/feed/"
-  },
-  {
-    "source": "1st Mining Rig",
-    "url": "https://1stminingrig.com/feed/"
-  },
+
+  { "source": "2Miners Blog", "url": "https://2miners.com/blog/feed/" },
+  { "source": "Minerset Feed", "url": "https://minerset.com/feed/" },
+  { "source": "1st Mining Rig", "url": "https://1stminingrig.com/feed/" },
   {
     "source": "Crypto Mining Blog",
     "url": "https://crypto-mining.blog/en/feed/"
@@ -67,10 +61,7 @@
     "source": "CoinFunda Mining Platforms",
     "url": "https://coinfunda.com/miningplatforms/feed/"
   },
-  {
-    "source": "Hiveon Blog",
-    "url": "https://blog.hiveon.com/rss/"
-  },
+  { "source": "Hiveon Blog", "url": "https://blog.hiveon.com/rss/" },
   {
     "source": "Medium: proof-of-work tag",
     "url": "https://medium.com/feed/tag/proof-of-work"
