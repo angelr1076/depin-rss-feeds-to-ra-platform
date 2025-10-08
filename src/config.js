@@ -12,3 +12,7 @@ export const QB = {
 export const RSSHUB_BASE = (
   process.env.RSSHUB_BASE || 'https://rsshub.app'
 ).replace(/\/+$/, '');
+
+export const RSSHUB_MIRROR = (
+  process.env.RSSHUB_MIRROR || 'https://rsshub.moeyy.cn'
+).replace(/\/+$/, '');
