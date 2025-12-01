@@ -31,4 +31,16 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/feed.xml"
   }
+  {
+    "source": "YouTube: OpenAI",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+  },
+  {
+    "source": "YouTube: DeepMind",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A"
+  },
+  {
+    "source": "YouTube: Yannic Kilcher",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew"
+  }
 ]
