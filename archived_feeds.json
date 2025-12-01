@@ -1,0 +1,73 @@
+[
+  {
+    "source": "Reddit: r/cryptomining",
+    "url": "https://rsshub.app/reddit/subreddit/cryptomining"
+  },
+  {
+    "source": "Reddit: r/gpumining",
+    "url": "https://rsshub.app/reddit/subreddit/gpumining"
+  },
+  {
+    "source": "Reddit: r/AltcoinMining",
+    "url": "https://rsshub.app/reddit/subreddit/AltcoinMining"
+  },
+  {
+    "source": "Reddit search: 'gpu mineable'",
+    "url": "https://rsshub.app/reddit/search/gpu%20mineable?sort=new"
+  },
+  {
+    "source": "Reddit search: 'fair launch' AND mining",
+    "url": "https://rsshub.app/reddit/search/%22fair%20launch%22%20mining?sort=new"
+  },
+  {
+    "source": "Reddit search: 'new algo' AND mining",
+    "url": "https://rsshub.app/reddit/search/%22new%20algo%22%20mining?sort=new"
+  },
+
+  {
+    "source": "Bitcointalk ANN (Altcoins)",
+    "url": "https://bitcointalk.org/index.php?board=159.0;type=rss"
+  },
+  {
+    "source": "Bitcointalk Mining (Altcoins)",
+    "url": "https://bitcointalk.org/index.php?board=160.0;type=rss"
+  },
+
+  {
+    "source": "BzMiner releases",
+    "url": "https://github.com/bzminer/bzminer/releases.atom"
+  },
+  {
+    "source": "SRBMiner-MULTI releases",
+    "url": "https://github.com/doktor83/SRBMiner-Multi/releases.atom"
+  },
+  {
+    "source": "T-Rex releases",
+    "url": "https://github.com/trexminer/T-Rex/releases.atom"
+  },
+
+  { "source": "2Miners Blog", "url": "https://2miners.com/blog/feed/" },
+  { "source": "Minerset Feed", "url": "https://minerset.com/feed/" },
+  { "source": "1st Mining Rig", "url": "https://1stminingrig.com/feed/" },
+  {
+    "source": "Crypto Mining Blog",
+    "url": "https://crypto-mining.blog/en/feed/"
+  },
+  {
+    "source": "Feedburner - Crypto Mining Blog",
+    "url": "https://feeds.feedburner.com/blogspot/WpOvJs"
+  },
+  {
+    "source": "CoinFunda Mining Platforms",
+    "url": "https://coinfunda.com/miningplatforms/feed/"
+  },
+  { "source": "Hiveon Blog", "url": "https://blog.hiveon.com/rss/" },
+  {
+    "source": "Medium: proof-of-work tag",
+    "url": "https://medium.com/feed/tag/proof-of-work"
+  },
+  {
+    "source": "Medium: gpu mining tag",
+    "url": "https://medium.com/feed/tag/gpu-mining"
+  }
+]
