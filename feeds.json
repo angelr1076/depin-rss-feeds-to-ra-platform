@@ -1,5 +1,17 @@
 [
   {
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/rss"
+  },
+  {
+    "source": "Decrypt",
+    "url": "https://decrypt.co/feed"
+  },
+  {
+    "source": "CoinTelegraph",
+    "url": "https://cointelegraph.com/rss"
+  },
+  {
     "source": "The Decoder (AI News)",
     "url": "https://the-decoder.com/feed/"
   },
@@ -18,39 +30,5 @@
   {
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/feed.xml"
-  },
-
-  {
-    "source": "arXiv: Artificial Intelligence (cs.AI)",
-    "url": "http://export.arxiv.org/rss/cs.AI"
-  },
-  {
-    "source": "arXiv: Machine Learning (stat.ML)",
-    "url": "http://export.arxiv.org/rss/stat.ML"
-  },
-  {
-    "source": "arXiv: Computation & Language (cs.CL)",
-    "url": "http://export.arxiv.org/rss/cs.CL"
-  },
-
-  {
-    "source": "Anthropic Research Blog",
-    "url": "https://www.anthropic.com/research/feed.xml"
-  },
-  {
-    "source": "OpenAI Blog",
-    "url": "https://openai.com/blog/rss/"
-  },
-  {
-    "source": "Google DeepMind Blog",
-    "url": "https://deepmind.google/feed/basic/"
-  },
-  {
-    "source": "Meta AI Blog",
-    "url": "https://ai.meta.com/blog/feed/"
-  },
-  {
-    "source": "Nvidia Developer / AI Blog",
-    "url": "https://developer.nvidia.com/blog/feed/"
   }
 ]
