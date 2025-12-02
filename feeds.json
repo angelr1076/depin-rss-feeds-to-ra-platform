@@ -1,22 +1,15 @@
 [
   {
-    "source": "Hacker News",
+    "source": "Hacker News (AI + indie launches)",
     "url": "https://news.ycombinator.com/rss"
   },
+
   {
-    "source": "Decrypt",
-    "url": "https://decrypt.co/feed"
-  },
-  {
-    "source": "CoinTelegraph",
-    "url": "https://cointelegraph.com/rss"
-  },
-  {
-    "source": "The Decoder (AI News)",
+    "source": "The Decoder (AI applications & builders)",
     "url": "https://the-decoder.com/feed/"
   },
   {
-    "source": "VentureBeat AI",
+    "source": "VentureBeat AI (startup stories)",
     "url": "https://venturebeat.com/category/ai/feed/"
   },
   {
@@ -24,23 +17,24 @@
     "url": "https://www.technologyreview.com/feed/section/ai/"
   },
   {
-    "source": "Synced Review (AI Research & Industry)",
+    "source": "Synced Review (AI industry + research)",
     "url": "https://medium.com/feed/syncedreview"
   },
   {
-    "source": "Hugging Face Blog",
+    "source": "Hugging Face Blog (community builders)",
     "url": "https://huggingface.co/blog/feed.xml"
-  }
+  },
+
   {
-    "source": "YouTube: OpenAI",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+    "source": "YouTube: Fireship (quick indie launches)",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA"
   },
   {
-    "source": "YouTube: DeepMind",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A"
+    "source": "YouTube: Matt Wolfe (AI tools for solo builders)",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0kQ8uG2zdl9rMLLyIl0WwQ"
   },
   {
-    "source": "YouTube: Yannic Kilcher",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew"
+    "source": "YouTube: Pieter Levels (Digital Nomad + AI Indie)",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvwJcOFlXeItHWzT5jUP_xw"
   }
 ]
