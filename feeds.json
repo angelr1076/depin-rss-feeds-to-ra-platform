@@ -36,5 +36,22 @@
   {
     "source": "YouTube: Pieter Levels (Digital Nomad + AI Indie)",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvwJcOFlXeItHWzT5jUP_xw"
+  },
+
+  {
+    "source": "Twitter: @levelsio",
+    "url": "https://rsshub.app/twitter/user/levelsio"
+  },
+  {
+    "source": "Twitter: @SaaS_AfterDark",
+    "url": "https://rsshub.app/twitter/user/SaaS_AfterDark"
+  },
+  {
+    "source": "Twitter: @theaiedge",
+    "url": "https://rsshub.app/twitter/user/theaiedge"
+  },
+  {
+    "source": "Twitter: Hashtag #buildinpublic",
+    "url": "https://rsshub.app/twitter/keyword/buildinpublic?limit=50"
   }
 ]
