@@ -1,22 +1,66 @@
 [
   {
-    "source": "Hacker News",
+    "source": "Indie Hackers - Curated",
+    "url": "https://feed.indiehackers.world/posts.rss"
+  },
+  {
+    "source": "Reddit - Indie Hackers (New)",
+    "url": "https://www.reddit.com/r/indiehackers/new/.rss"
+  },
+
+  {
+    "source": "Hacker News - Top",
     "url": "https://news.ycombinator.com/rss"
   },
   {
-    "source": "Decrypt",
-    "url": "https://decrypt.co/feed"
+    "source": "Hacker News - Show HN",
+    "url": "https://hnrss.org/show"
   },
   {
-    "source": "CoinTelegraph",
-    "url": "https://cointelegraph.com/rss"
+    "source": "Hacker News - Launch HN",
+    "url": "https://hnrss.org/newest?points=5&comments=0"
   },
+
+  {
+    "source": "Y Combinator Startup Library",
+    "url": "https://www.ycombinator.com/blog/rss"
+  },
+
+  {
+    "source": "Alex West - SaaS Playbooks",
+    "url": "https://www.alexwest.co/rss"
+  },
+  {
+    "source": "levelsio (Pieter Levels) - Build in Public",
+    "url": "https://levels.io/rss/"
+  },
+  {
+    "source": "Jakob Greenfeld - Experiments & Indie Ideas",
+    "url": "https://jakobgreenfeld.com/feed.xml"
+  },
+  {
+    "source": "Hiten Shah - SaaS & Growth",
+    "url": "https://hitenism.com/feed/"
+  },
+  {
+    "source": "Stacking the Bricks (Amy Hoy)",
+    "url": "https://stackingthebricks.com/feed.xml"
+  },
+  {
+    "source": "Yongfook (Bannerbear Founder)",
+    "url": "https://yongfook.com/rss.xml"
+  },
+  {
+    "source": "Dimitris Raptis (d__raptis)",
+    "url": "https://dimitrisraptis.com/rss.xml"
+  },
+
   {
     "source": "The Decoder (AI News)",
     "url": "https://the-decoder.com/feed/"
   },
   {
-    "source": "VentureBeat AI",
+    "source": "VentureBeat - AI",
     "url": "https://venturebeat.com/category/ai/feed/"
   },
   {
@@ -31,16 +75,17 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/feed.xml"
   },
+
   {
-    "source": "YouTube: OpenAI",
+    "source": "YouTube - OpenAI",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
   },
   {
-    "source": "YouTube: DeepMind",
+    "source": "YouTube - DeepMind",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A"
   },
   {
-    "source": "YouTube: Yannic Kilcher",
+    "source": "YouTube - Yannic Kilcher",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew"
   }
 ]
