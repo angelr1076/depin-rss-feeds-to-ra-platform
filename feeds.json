@@ -1,88 +1,51 @@
 [
   {
-    "source": "Indie Hackers - Curated",
-    "url": "https://feed.indiehackers.world/posts.rss"
+    "source": "Indie Hackers – Curated posts",
+    "url": "https://www.indiehackers.com/rss"
   },
   {
-    "source": "Reddit - Indie Hackers (New)",
-    "url": "https://www.reddit.com/r/indiehackers/new/.rss"
-  },
-
-  {
-    "source": "Hacker News - Top",
-    "url": "https://news.ycombinator.com/rss"
+    "source": "Bootstrappers.io",
+    "url": "https://bootstrappers.io/feed.xml"
   },
   {
-    "source": "Hacker News - Show HN",
-    "url": "https://hnrss.org/show"
+    "source": "Starter Story",
+    "url": "https://www.starterstory.com/feed"
   },
   {
-    "source": "Hacker News - Launch HN",
-    "url": "https://hnrss.org/newest?points=5&comments=0"
-  },
-
-  {
-    "source": "Y Combinator Startup Library",
-    "url": "https://www.ycombinator.com/blog/rss"
-  },
-
-  {
-    "source": "Alex West - SaaS Playbooks",
-    "url": "https://www.alexwest.co/rss"
+    "source": "Nathan Barry",
+    "url": "https://nathanbarry.com/rss.xml"
   },
   {
-    "source": "levelsio (Pieter Levels) - Build in Public",
-    "url": "https://levels.io/rss/"
+    "source": "BufferOpen",
+    "url": "https://bufferopen.com/rss.xml"
   },
   {
-    "source": "Jakob Greenfeld - Experiments & Indie Ideas",
-    "url": "https://jakobgreenfeld.com/feed.xml"
-  },
-  {
-    "source": "Hiten Shah - SaaS & Growth",
-    "url": "https://hitenism.com/feed/"
-  },
-  {
-    "source": "Stacking the Bricks (Amy Hoy)",
-    "url": "https://stackingthebricks.com/feed.xml"
-  },
-  {
-    "source": "Yongfook (Bannerbear Founder)",
+    "source": "Yongfook (Bannerbear)",
     "url": "https://yongfook.com/rss.xml"
   },
   {
-    "source": "Dimitris Raptis (d__raptis)",
-    "url": "https://dimitrisraptis.com/rss.xml"
-  },
-
-  {
-    "source": "The Decoder (AI News)",
-    "url": "https://the-decoder.com/feed/"
+    "source": "Alex West – SaaS / Bootstrapped Founder",
+    "url": "https://www.alexwest.co/rss"
   },
   {
-    "source": "VentureBeat - AI",
-    "url": "https://venturebeat.com/category/ai/feed/"
+    "source": "Stacking the Bricks (Amy Hoy / Alex Hillman)",
+    "url": "https://stackingthebricks.com/feed.xml"
   },
   {
-    "source": "MIT Technology Review - AI",
-    "url": "https://www.technologyreview.com/feed/section/ai/"
+    "source": "Indie-maker blog (curated list)",
+    "url": "https://raw.githubusercontent.com/johackim/awesome-indiehackers/main/README.md"
   },
   {
-    "source": "Synced Review (AI Research & Industry)",
-    "url": "https://medium.com/feed/syncedreview"
+    "source": "Dev / tooling / self-hosted blog pool (curated) — e.g. small open-source/web-dev tools blogs",
+    "url": "https://dev.to/feed/"
   },
   {
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/feed.xml"
-  },
-
-  {
-    "source": "YouTube - OpenAI",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+    "source": "Home-lab / hobbyist-hosting blogs pool (curated)",
+    "url": "https://diyhpl.com/feed"
   },
   {
-    "source": "YouTube - DeepMind",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A"
+    "source": "Small SaaS / micro-product newsletter (RSS-enabled)",
+    "url": "https://convertkit.com/blog/rss.xml"
   },
   {
     "source": "YouTube - Yannic Kilcher",
