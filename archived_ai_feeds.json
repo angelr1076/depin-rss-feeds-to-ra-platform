@@ -58,6 +58,22 @@
     "url": "https://www.indiehackers.com/rss" 
   },
   {
+    "source": "Smashing Magazine",
+    "url": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "source": "CSS-Tricks",
+    "url": "https://css-tricks.com/feed/"
+  },
+  {
+    "source": "DZone JavaScript & Frontend",
+    "url": "https://feeds.dzone.com/javascript"
+  },
+  {
+    "source": "Echo JS",
+    "url": "https://echojs.com/rss"
+  },
+  {
     "source": "Bootstrappers.io",
     "url": "https://bootstrappers.io/feed.xml" 
   },

@@ -7,46 +7,36 @@
     "source": "Alex West – SaaS / Bootstrapped Founder",
     "url": "https://www.alexwest.co/rss"
   },
-
-  {
-    "source": "Smashing Magazine",
-    "url": "https://www.smashingmagazine.com/feed/"
-  },
-  {
-    "source": "CSS-Tricks",
-    "url": "https://css-tricks.com/feed/"
-  },
-  {
-    "source": "DZone JavaScript & Frontend",
-    "url": "https://feeds.dzone.com/javascript"
-  },
-  {
-    "source": "Echo JS",
-    "url": "https://echojs.com/rss"
-  },
   {
     "source": "Tutorialzine",
     "url": "https://tutorialzine.com/feed"
   },
-
+  {
+    "source": "YouTube - Build With AI",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCeY0bbntWzzVIaj2z3QigXg"
+  },
   {
     "source": "YouTube - Eliana Jordan",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>"
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo0xv6uup43YSDCj4DDzMdg"
   },
   {
     "source": "YouTube - CultureOfCode",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>"
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCNZuZjMs8jkGFEKKcVUzfw"
   },
   {
     "source": "YouTube - Boorackz",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>"
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHUKDfwo1-R1oJa39nKaZfA"
   },
   {
     "source": "YouTube - StartupCode-AI",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>"
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCX82ridAZOTJAT47jxFC5Mw"
   },
   {
     "source": "YouTube - Greg Isenberg",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>"
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPjNBjflYl0-HQtUvOx0Ibw"
+  },
+  {
+    "source": "YouTube - Starter Story",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChhw6DlKKTQ9mYSpTfXUYqA"
   }
 ]
