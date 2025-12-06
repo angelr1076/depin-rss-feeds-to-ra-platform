@@ -31,7 +31,9 @@ async function runOnce() {
   for (const f of feeds) {
     try {
       const feed = await fetchFeed(f.url);
-      const items = normalizeItems(feed, f.source, f.url);
+      const items = normalizeItems(feed, f.source, f.url, {
+        maxItems: f.maxItems,
+      });
       if (!items.length) {
         console.log(`[skip] ${f.source}: 0 items`);
       } else {

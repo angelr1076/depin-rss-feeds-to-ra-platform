@@ -1,9 +1,10 @@
 import crypto from 'node:crypto';
 
-export function normalizeItems(feed, sourceName, feedUrl) {
+export function normalizeItems(feed, sourceName, feedUrl, config = {}) {
   const now = new Date();
   const cutoff = new Date();
-  cutoff.setMonth(cutoff.getMonth() - 2); // No older than 2 months ago
+  cutoff.setMonth(cutoff.getMonth() - 2);
+
   let items = feed.items || [];
 
   if (
