@@ -12,14 +12,6 @@
     "url": "https://tutorialzine.com/feed"
   },
   {
-    "source": "Indie Hackers",
-    "url": "https://www.indiehackers.com/feed"
-  },
-  {
-    "source": "SaaS Ideas",
-    "url": "https://saasideas.com/feed/"
-  },
-  {
     "source": "SaaS Club",
     "url": "https://saasclub.io/feed/"
   },
@@ -30,22 +22,6 @@
   {
     "source": "SaaS Growth Hacks",
     "url": "https://saasgrowthhacks.com/feed/"
-  },
-  {
-    "source": "Indie Maker Diary",
-    "url": "https://indiemakerdiary.com/rss/"
-  },
-  {
-    "source": "Makerpad",
-    "url": "https://www.makerpad.co/blog/rss.xml"
-  },
-  {
-    "source": "No Code MBA",
-    "url": "https://www.nocodemba.com/blog/rss.xml"
-  },
-  {
-    "source": "AI Weekly",
-    "url": "https://aiweekly.co/rss/"
   },
   {
     "source": "Import AI by Jack Clark",
@@ -83,6 +59,11 @@
   {
     "source": "YouTube - Liam Ottley",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCui4jxDaMb53Gdh-AZUTPAg",
+    "maxItems": 5
+  },
+  {
+    "source": "YouTube - The MITMonk",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4ZVkG3RQPzvZk7alIVjcCg",
     "maxItems": 5
   }
 ]
