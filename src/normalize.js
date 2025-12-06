@@ -4,8 +4,17 @@ export function normalizeItems(feed, sourceName, feedUrl) {
   const now = new Date();
   const cutoff = new Date();
   cutoff.setMonth(cutoff.getMonth() - 2); // No older than 2 months ago
+  let items = feed.items || [];
 
-  return (feed.items || [])
+  if (
+    config.maxItems &&
+    Number.isInteger(config.maxItems) &&
+    config.maxItems > 0
+  ) {
+    items = items.slice(0, config.maxItems);
+  }
+
+  return items
     .map(item => {
       const guid =
         item.guid ||
