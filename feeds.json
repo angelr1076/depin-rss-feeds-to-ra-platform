@@ -1,54 +1,52 @@
 [
   {
-    "source": "Indie Hackers – Curated posts",
-    "url": "https://www.indiehackers.com/rss"
-  },
-  {
-    "source": "Bootstrappers.io",
-    "url": "https://bootstrappers.io/feed.xml"
-  },
-  {
-    "source": "Starter Story",
-    "url": "https://www.starterstory.com/feed"
-  },
-  {
     "source": "Nathan Barry",
-    "url": "https://nathanbarry.com/rss.xml"
-  },
-  {
-    "source": "BufferOpen",
-    "url": "https://bufferopen.com/rss.xml"
-  },
-  {
-    "source": "Yongfook (Bannerbear)",
-    "url": "https://yongfook.com/rss.xml"
+    "url": "https://nathanbarry.com/rss"
   },
   {
     "source": "Alex West – SaaS / Bootstrapped Founder",
     "url": "https://www.alexwest.co/rss"
   },
+
   {
-    "source": "Stacking the Bricks (Amy Hoy / Alex Hillman)",
-    "url": "https://stackingthebricks.com/feed.xml"
+    "source": "Smashing Magazine",
+    "url": "https://www.smashingmagazine.com/feed/"
   },
   {
-    "source": "Indie-maker blog (curated list)",
-    "url": "https://raw.githubusercontent.com/johackim/awesome-indiehackers/main/README.md"
+    "source": "CSS-Tricks",
+    "url": "https://css-tricks.com/feed/"
   },
   {
-    "source": "Dev / tooling / self-hosted blog pool (curated) — e.g. small open-source/web-dev tools blogs",
-    "url": "https://dev.to/feed/"
+    "source": "DZone JavaScript & Frontend",
+    "url": "https://feeds.dzone.com/javascript"
   },
   {
-    "source": "Home-lab / hobbyist-hosting blogs pool (curated)",
-    "url": "https://diyhpl.com/feed"
+    "source": "Echo JS",
+    "url": "https://echojs.com/rss"
   },
   {
-    "source": "Small SaaS / micro-product newsletter (RSS-enabled)",
-    "url": "https://convertkit.com/blog/rss.xml"
+    "source": "Tutorialzine",
+    "url": "https://tutorialzine.com/feed"
+  },
+
+  {
+    "source": "YouTube - Eliana Jordan",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>"
   },
   {
-    "source": "YouTube - Yannic Kilcher",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew"
+    "source": "YouTube - CultureOfCode",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>"
+  },
+  {
+    "source": "YouTube - Boorackz",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>"
+  },
+  {
+    "source": "YouTube - StartupCode-AI",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>"
+  },
+  {
+    "source": "YouTube - Greg Isenberg",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>"
   }
 ]

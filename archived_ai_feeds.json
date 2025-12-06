@@ -53,4 +53,32 @@
     "source": "Nvidia Developer / AI Blog",
     "url": "https://developer.nvidia.com/blog/feed/"
   }
+  {
+    "source": "Indie Hackers – Curated posts",
+    "url": "https://www.indiehackers.com/rss" 
+  },
+  {
+    "source": "Bootstrappers.io",
+    "url": "https://bootstrappers.io/feed.xml" 
+  },
+  {
+    "source": "Starter Story",
+    "url": "https://www.starterstory.com/feed" 
+  },
+  {
+    "source": "BufferOpen",
+    "url": "https://bufferopen.com/rss.xml" 
+  },
+  {
+    "source": "Yongfook (Bannerbear)",
+    "url": "https://yongfook.com/rss.xml" 
+  },
+  {
+    "source": "Home-lab / hobbyist-hosting blogs pool (curated)",
+    "url": "https://diyhpl.com/feed" 
+  },
+  {
+    "source": "Small SaaS / micro-product newsletter (RSS-enabled)",
+    "url": "https://convertkit.com/blog/rss.xml" 
+  },
 ]
