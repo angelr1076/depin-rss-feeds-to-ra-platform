@@ -31,35 +31,36 @@
   {
     "source": "YouTube - CultureOfCode",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCNZuZjMs8jkGFEKKcVUzfw",
-    "maxItems": 5
+    "maxItems": 3
   },
   {
     "source": "YouTube - Boorackz",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHUKDfwo1-R1oJa39nKaZfA",
-    "maxItems": 5
+    "maxItems": 3
   },
   {
     "source": "YouTube - StartupCode-AI",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCX82ridAZOTJAT47jxFC5Mw",
-    "maxItems": 5
+    "maxItems": 3
   },
   {
     "source": "YouTube - Greg Isenberg",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPjNBjflYl0-HQtUvOx0Ibw",
-    "maxItems": 5
+    "maxItems": 3
   },
   {
     "source": "YouTube - Starter Story",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChhw6DlKKTQ9mYSpTfXUYqA"
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChhw6DlKKTQ9mYSpTfXUYqA",
+    "maxItems": 3
   },
   {
     "source": "YouTube - Liam Ottley",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCui4jxDaMb53Gdh-AZUTPAg",
-    "maxItems": 5
+    "maxItems": 3
   },
   {
     "source": "YouTube - The MITMonk",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4ZVkG3RQPzvZk7alIVjcCg",
-    "maxItems": 5
+    "maxItems": 3
   }
 ]
