@@ -77,5 +77,10 @@
     "source": "YouTube - Chase AI",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoy6cTJ7Tg0dqS-DI-_REsA",
     "maxItems": 2
+  },
+  {
+    "source": "YouTube - Liam Lim",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVndLIFCjGZ3yv9Ryrru_GQ",
+    "maxItems": 2
   }
 ]
