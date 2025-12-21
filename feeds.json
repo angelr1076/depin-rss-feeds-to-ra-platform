@@ -82,5 +82,45 @@
     "source": "YouTube - Liam Lim",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVndLIFCjGZ3yv9Ryrru_GQ",
     "maxItems": 2
+  },
+  {
+    "source": "YouTube - Tina Huang",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2UXDak6o7rBm23k3Vv5dww",
+    "maxItems": 2
+  },
+  {
+    "source": "YouTube - Matt Palmer",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpe4azYvizhOPP22aSYnxwQ",
+    "maxItems": 2
+  },
+  {
+    "source": "YouTube - Y Combinator",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCpe4azYvizhOPP22aSYnxwQ",
+    "maxItems": 2
+  },
+  {
+    "source": "YouTube - Tech with Tim",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4JX40jDee_tINbkjycV4Sg",
+    "maxItems": 2
+  },
+  {
+    "source": "YouTube - Sara Dietschy",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3fg6pL63upkXCc0T203wVg",
+    "maxItems": 2
+  },
+  {
+    "source": "YouTube - Tech with Lucy",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCck1m7zZdzioiUzqhzpdNPw",
+    "maxItems": 2
+  },
+  {
+    "source": "YouTube - WorldofAI",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+    "maxItems": 2
+  },
+  {
+    "source": "YouTube - BridgeMind",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwaTGE53GLGC3fDClVl_7TA",
+    "maxItems": 2
   }
 ]
