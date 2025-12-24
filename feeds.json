@@ -46,17 +46,17 @@
   {
     "source": "YouTube - Greg Isenberg",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPjNBjflYl0-HQtUvOx0Ibw",
-    "maxItems": 2
+    "maxItems": 4
   },
   {
     "source": "YouTube - Starter Story",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChhw6DlKKTQ9mYSpTfXUYqA",
-    "maxItems": 2
+    "maxItems": 4
   },
   {
     "source": "YouTube - Liam Ottley",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCui4jxDaMb53Gdh-AZUTPAg",
-    "maxItems": 2
+    "maxItems": 3
   },
   {
     "source": "YouTube - The MITMonk",
@@ -66,17 +66,17 @@
   {
     "source": "YouTube - Riley Brown",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMcoud_ZW7cfxeIugBflSBw",
-    "maxItems": 2
+    "maxItems": 4
   },
   {
     "source": "YouTube - Mikey No Code",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCde0vB0fTwC8AT3sJofFV0w",
-    "maxItems": 2
+    "maxItems": 4
   },
   {
     "source": "YouTube - Chase AI",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoy6cTJ7Tg0dqS-DI-_REsA",
-    "maxItems": 2
+    "maxItems": 4
   },
   {
     "source": "YouTube - Liam Lim",
@@ -116,11 +116,16 @@
   {
     "source": "YouTube - WorldofAI",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-    "maxItems": 2
+    "maxItems": 4
   },
   {
     "source": "YouTube - BridgeMind",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwaTGE53GLGC3fDClVl_7TA",
     "maxItems": 2
+  },
+  {
+    "source": "YouTube - Marc Lou",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC12JO2IPlEViR-o6SLXKx1A",
+    "maxItems": 4
   }
 ]
