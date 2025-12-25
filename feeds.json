@@ -54,6 +54,11 @@
     "maxItems": 4
   },
   {
+    "source": "YouTube - Starter Story Build",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLbKt4FZKk41HwZ2A3Mnz4Q",
+    "maxItems": 2
+  },
+  {
     "source": "YouTube - Liam Ottley",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCui4jxDaMb53Gdh-AZUTPAg",
     "maxItems": 3
@@ -127,5 +132,25 @@
     "source": "YouTube - Marc Lou",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC12JO2IPlEViR-o6SLXKx1A",
     "maxItems": 4
+  },
+  {
+    "source": "YouTube - Jack Roberts",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxVxcTULO9cFU6SB9qVaisQ",
+    "maxItems": 3
+  },
+  {
+    "source": "YouTube - Matt Wolfe",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+    "maxItems": 3
+  },
+  {
+    "source": "YouTube - Rick Mulready",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmNAkARqTFvNoyxmFhKTS9Q",
+    "maxItems": 3
+  },
+  {
+    "source": "YouTube - Paul J Lipsky",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmeU2DYiVy80wMBGZzEWnbw",
+    "maxItems": 3
   }
 ]
