@@ -152,5 +152,10 @@
     "source": "YouTube - Paul J Lipsky",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmeU2DYiVy80wMBGZzEWnbw",
     "maxItems": 3
+  },
+  {
+    "source": "YouTube - Adam Lyttle",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKJn8oR4qN_0lDw8dKZ6wlg",
+    "maxItems": 3
   }
 ]
