@@ -157,5 +157,10 @@
     "source": "YouTube - Adam Lyttle",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKJn8oR4qN_0lDw8dKZ6wlg",
     "maxItems": 3
+  },
+  {
+    "source": "YouTube - Eric Tech",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOXRjenlq9PmlTqd_JhAbMQ",
+    "maxItems": 3
   }
 ]
