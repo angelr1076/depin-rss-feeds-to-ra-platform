@@ -167,5 +167,30 @@
     "source": "YouTube - Peter Yang",
     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnpBg7yqNauHtlNSpOl5-cg",
     "maxItems": 3
+  },
+  {
+    "source": "YouTube - Forrest Knight",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2WHjPDvbE6O328n17ZGcfg",
+    "maxItems": 3
+  },
+  {
+    "source": "YouTube - World of AI",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2WHjPDvbE6O328n17ZGcfg",
+    "maxItems": 3
+  },
+  {
+    "source": "YouTube - Network Chuck",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ",
+    "maxItems": 3
+  },
+  {
+    "source": "YouTube - Your Average Tech Bro",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfQk5qGOEO5cPPDFlQe2lFQ",
+    "maxItems": 3
+  },
+  {
+    "source": "YouTube - Jeff Su",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwAnu01qlnVg1Ai2AbtTMaA",
+    "maxItems": 3
   }
 ]
